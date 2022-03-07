@@ -2,10 +2,10 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
     <line>
-      <![CDATA[http://www.fb.com]]>
+      <![CDATA[https://demo.actitime.com/login.do]]>
     </line>
     <line>
-      <![CDATA[Facebook – log in or sign up]]>
+      <![CDATA[actiTIME - Login]]>
     </line>
     <line>
       <![CDATA[A1]]>
@@ -14,22 +14,22 @@
       <![CDATA[admin]]>
     </line>
   </reporter-output>
-  <suite name="Default suite" duration-ms="11053" started-at="2022-03-03T03:49:56Z" finished-at="2022-03-03T03:50:07Z">
+  <suite name="Default suite" duration-ms="26437" started-at="2022-03-07T02:42:34Z" finished-at="2022-03-07T02:43:01Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="11053" started-at="2022-03-03T03:49:56Z" finished-at="2022-03-03T03:50:07Z">
+    <test name="Default test" duration-ms="26437" started-at="2022-03-07T02:42:34Z" finished-at="2022-03-07T02:43:01Z">
       <class name="script.Test1">
-        <test-method status="PASS" signature="openApp()[pri:0, instance:script.Test1@73eb439a]" name="openApp" is-config="true" duration-ms="9127" started-at="2022-03-03T03:49:56Z" finished-at="2022-03-03T03:50:05Z">
+        <test-method status="PASS" signature="openApp()[pri:0, instance:script.Test1@790da477]" name="openApp" is-config="true" duration-ms="21007" started-at="2022-03-07T02:42:34Z" finished-at="2022-03-07T02:42:55Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openApp -->
-        <test-method status="PASS" signature="testA()[pri:0, instance:script.Test1@73eb439a]" name="testA" duration-ms="1536" started-at="2022-03-03T03:50:05Z" finished-at="2022-03-03T03:50:07Z">
+        <test-method status="PASS" signature="testA()[pri:0, instance:script.Test1@790da477]" name="testA" duration-ms="5076" started-at="2022-03-07T02:42:55Z" finished-at="2022-03-07T02:43:00Z">
           <reporter-output>
             <line>
-              <![CDATA[http://www.fb.com]]>
+              <![CDATA[https://demo.actitime.com/login.do]]>
             </line>
             <line>
-              <![CDATA[Facebook – log in or sign up]]>
+              <![CDATA[actiTIME - Login]]>
             </line>
             <line>
               <![CDATA[A1]]>
@@ -39,7 +39,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- testA -->
-        <test-method status="PASS" signature="closeApp()[pri:0, instance:script.Test1@73eb439a]" name="closeApp" is-config="true" duration-ms="355" started-at="2022-03-03T03:50:07Z" finished-at="2022-03-03T03:50:07Z">
+        <test-method status="PASS" signature="closeApp()[pri:0, instance:script.Test1@790da477]" name="closeApp" is-config="true" duration-ms="272" started-at="2022-03-07T02:43:00Z" finished-at="2022-03-07T02:43:01Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeApp -->

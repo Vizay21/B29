@@ -2,44 +2,26 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
     <line>
-      <![CDATA[http://www.fb.com]]>
-    </line>
-    <line>
-      <![CDATA[]]>
-    </line>
-    <line>
-      <![CDATA[A1]]>
-    </line>
-    <line>
-      <![CDATA[admin]]>
+      <![CDATA[Title is matching]]>
     </line>
   </reporter-output>
-  <suite name="Suite" duration-ms="5134" started-at="2022-03-04T02:37:30Z" finished-at="2022-03-04T02:37:35Z">
+  <suite name="Suite" duration-ms="20915" started-at="2022-03-07T03:12:44Z" finished-at="2022-03-07T03:13:05Z">
     <groups>
     </groups>
-    <test name="Test" duration-ms="5134" started-at="2022-03-04T02:37:30Z" finished-at="2022-03-04T02:37:35Z">
+    <test name="Test" duration-ms="20915" started-at="2022-03-07T03:12:44Z" finished-at="2022-03-07T03:13:05Z">
       <class name="script.Test1">
-        <test-method status="PASS" signature="openApp()[pri:0, instance:script.Test1@33d512c1]" name="openApp" is-config="true" duration-ms="4137" started-at="2022-03-04T02:37:30Z" finished-at="2022-03-04T02:37:34Z">
+        <test-method status="PASS" signature="openApp()[pri:0, instance:script.Test1@33d512c1]" name="openApp" is-config="true" duration-ms="13983" started-at="2022-03-07T03:12:44Z" finished-at="2022-03-07T03:12:58Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openApp -->
-        <test-method status="PASS" signature="testA()[pri:0, instance:script.Test1@33d512c1]" name="testA" duration-ms="824" started-at="2022-03-04T02:37:34Z" finished-at="2022-03-04T02:37:35Z">
+        <test-method status="PASS" signature="testA()[pri:0, instance:script.Test1@33d512c1]" name="testA" duration-ms="6653" started-at="2022-03-07T03:12:58Z" finished-at="2022-03-07T03:13:05Z">
           <reporter-output>
             <line>
-              <![CDATA[http://www.fb.com]]>
-            </line>
-            <line>
-              <![CDATA[]]>
-            </line>
-            <line>
-              <![CDATA[A1]]>
-            </line>
-            <line>
-              <![CDATA[admin]]>
+              <![CDATA[Title is matching]]>
             </line>
           </reporter-output>
         </test-method> <!-- testA -->
-        <test-method status="PASS" signature="closeApp()[pri:0, instance:script.Test1@33d512c1]" name="closeApp" is-config="true" duration-ms="150" started-at="2022-03-04T02:37:35Z" finished-at="2022-03-04T02:37:35Z">
+        <test-method status="PASS" signature="closeApp()[pri:0, instance:script.Test1@33d512c1]" name="closeApp" is-config="true" duration-ms="241" started-at="2022-03-07T03:13:05Z" finished-at="2022-03-07T03:13:05Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeApp -->
