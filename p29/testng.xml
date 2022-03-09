@@ -1,10 +1,18 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite name="Suite">
-	<test thread-count="5" name="Test">
-		<packages>
-			<package name="script"></package>
-		</packages>
-
-	</test> <!-- Test -->
-</suite> <!-- Suite -->
+<suite name="Suite" parallel="tests">
+  <test name="RegressionGC">
+  <parameter name="grid" value="no"/>
+  <parameter name="remoteAddr" value="http://localhost:4444"/>
+  <parameter name="browserName" value="chrome"/>
+    <packages>
+      <package name="script"/>
+    </packages>
+  </test>
+  <test name="RegressionFF">
+  <parameter name="grid" value="yes"/>
+  <parameter name="remoteAddr" value="http://localhost:4444"/>
+  <parameter name="browserName" value="firefox"/>
+    <packages>
+      <package name="script"/>
+    </packages>
+  </test>
+</suite>

@@ -2,26 +2,26 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
     <line>
-      <![CDATA[Title is matching]]>
+      <![CDATA[Element is displayed]]>
     </line>
   </reporter-output>
-  <suite name="Suite" duration-ms="20915" started-at="2022-03-07T03:12:44Z" finished-at="2022-03-07T03:13:05Z">
+  <suite name="Suite" duration-ms="26193" started-at="2022-03-07T03:35:35Z" finished-at="2022-03-07T03:36:01Z">
     <groups>
     </groups>
-    <test name="Test" duration-ms="20915" started-at="2022-03-07T03:12:44Z" finished-at="2022-03-07T03:13:05Z">
+    <test name="Test" duration-ms="26193" started-at="2022-03-07T03:35:35Z" finished-at="2022-03-07T03:36:01Z">
       <class name="script.Test1">
-        <test-method status="PASS" signature="openApp()[pri:0, instance:script.Test1@33d512c1]" name="openApp" is-config="true" duration-ms="13983" started-at="2022-03-07T03:12:44Z" finished-at="2022-03-07T03:12:58Z">
+        <test-method status="PASS" signature="openApp()[pri:0, instance:script.Test1@515c6049]" name="openApp" is-config="true" duration-ms="19052" started-at="2022-03-07T03:35:35Z" finished-at="2022-03-07T03:35:54Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openApp -->
-        <test-method status="PASS" signature="testA()[pri:0, instance:script.Test1@33d512c1]" name="testA" duration-ms="6653" started-at="2022-03-07T03:12:58Z" finished-at="2022-03-07T03:13:05Z">
+        <test-method status="PASS" signature="testA()[pri:0, instance:script.Test1@515c6049]" name="testA" duration-ms="6803" started-at="2022-03-07T03:35:54Z" finished-at="2022-03-07T03:36:00Z">
           <reporter-output>
             <line>
-              <![CDATA[Title is matching]]>
+              <![CDATA[Element is displayed]]>
             </line>
           </reporter-output>
         </test-method> <!-- testA -->
-        <test-method status="PASS" signature="closeApp()[pri:0, instance:script.Test1@33d512c1]" name="closeApp" is-config="true" duration-ms="241" started-at="2022-03-07T03:13:05Z" finished-at="2022-03-07T03:13:05Z">
+        <test-method status="PASS" signature="closeApp()[pri:0, instance:script.Test1@515c6049]" name="closeApp" is-config="true" duration-ms="282" started-at="2022-03-07T03:36:00Z" finished-at="2022-03-07T03:36:01Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeApp -->
